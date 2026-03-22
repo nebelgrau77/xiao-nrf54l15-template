@@ -1,0 +1,6 @@
+[template]
+cargo_generate_version = ">=0.9.0"
+description = "A Xiao nRF54L15 project template"
+
+[hooks]
+pre = ["cargo-generate/prehook.rhai"]
